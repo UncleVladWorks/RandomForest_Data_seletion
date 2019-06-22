@@ -101,8 +101,6 @@ n3 = n2 - 1
 df['label'] = df[forecast_col]
 features = df.drop(columns='label')
 X = np.array(df.drop(['label'], 1))
-
-# Max features settings
 feature_list = list(features.columns)
 n_feat = len(features.columns)
 n_feat1 = int(n_feat * 0.18)
