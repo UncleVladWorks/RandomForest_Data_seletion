@@ -15,7 +15,7 @@ register_matplotlib_converters()
 # Preparation of initial dataset
 df_name1 = 'Dataset_SA_06'
 
-path = 'C:/Users/1pc/PycharmProjects/AI/Prediction models/ARTICLE/'
+path = 'your_path_to_the_csv'
 df_name2 = '.csv'
 df_name3 = path + df_name1 + df_name2
 datas = pd.read_csv(df_name3)
